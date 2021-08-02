@@ -12,6 +12,7 @@
 - [Temperatures](https://www.codingame.com/ide/puzzle/temperatures)
 
 **JavaScript**
+- [ASCII Art](https://www.codingame.com/ide/puzzle/ascii-art)
 - [Chuck Norris](https://www.codingame.com/ide/puzzle/chuck-norris)
 - [Detective Pikaptcha - Episode 1](https://www.codingame.com/ide/puzzle/detective-pikaptcha-ep1)
 - [Longest sequences of 1s](https://www.codingame.com/training/easy/create-the-longest-sequence-of-1s)
