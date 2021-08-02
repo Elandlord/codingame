@@ -17,6 +17,7 @@
 - [Detective Pikaptcha - Episode 1](https://www.codingame.com/ide/puzzle/detective-pikaptcha-ep1)
 - [Longest sequences of 1s](https://www.codingame.com/training/easy/create-the-longest-sequence-of-1s)
 - [Mars Lander - Episode 1](https://www.codingame.com/ide/puzzle/mars-lander-episode-1)
+- [Mime Type](https://www.codingame.com/ide/puzzle/mime-type)
 
 **Python**
 - [Power of Thor - Episode 1](https://www.codingame.com/training/easy/power-of-thor-episode-1)
