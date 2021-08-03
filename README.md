@@ -18,6 +18,7 @@
 - [Longest sequences of 1s](https://www.codingame.com/training/easy/create-the-longest-sequence-of-1s)
 - [Mars Lander - Episode 1](https://www.codingame.com/ide/puzzle/mars-lander-episode-1)
 - [Mime Type](https://www.codingame.com/ide/puzzle/mime-type)
+- [Reverse Minesweeper](https://www.codingame.com/ide/puzzle/reverse-minesweeper)
 - [Sudoku Checker](https://www.codingame.com/training/easy/sudoku-validator/solution?id=20448622)
 
 **Python**
