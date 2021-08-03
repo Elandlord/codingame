@@ -28,6 +28,8 @@
 ### Medium
 <details>
 <summary>Show</summary>
+
+- [Don't Panic - Episode 1](https://www.codingame.com/ide/puzzle/don't-panic-episode-1)
 </details>
 
 ### Hard
