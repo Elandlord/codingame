@@ -20,6 +20,7 @@
 - [Mime Type](https://www.codingame.com/ide/puzzle/mime-type)
 - [Reverse Minesweeper](https://www.codingame.com/ide/puzzle/reverse-minesweeper)
 - [Sudoku Checker](https://www.codingame.com/training/easy/sudoku-validator/solution?id=20448622)
+- [Tree Paths](https://www.codingame.com/training/easy/tree-paths)
 
 **Python**
 - [Power of Thor - Episode 1](https://www.codingame.com/training/easy/power-of-thor-episode-1)
