@@ -38,6 +38,8 @@
 ### Hard
 <details>
 <summary>Show</summary>
+
+- [Mini Sudoku Solver](https://www.codingame.com/ide/puzzle/mini-sudoku-solver)
 </details>
 
 ### Very Hard
