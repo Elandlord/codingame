@@ -30,6 +30,7 @@
 <summary>Show</summary>
 
 - [Don't Panic - Episode 1](https://www.codingame.com/ide/puzzle/don't-panic-episode-1)
+- [The Last Crusade - Episode 1](https://www.codingame.com/ide/puzzle/the-last-crusade-episode-1)
 </details>
 
 ### Hard
