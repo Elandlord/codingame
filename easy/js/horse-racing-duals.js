@@ -2,7 +2,7 @@ const numberHorses = parseInt(readline());
 
 const horseStrengths = [...Array(numberHorses)].map( _ => parseInt(readline()));
 
-let answer = Number.MAX_SAFE_INTEGER;
+let answer = Math.abs(horseStrengths[0] - horseStrengths[1]);
 
 horseStrengths.sort().forEach( (horseStrength, index) => {
     let next = horseStrengths[index + 1];
