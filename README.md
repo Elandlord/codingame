@@ -15,6 +15,7 @@
 - [ASCII Art](https://www.codingame.com/ide/puzzle/ascii-art)
 - [Chuck Norris](https://www.codingame.com/ide/puzzle/chuck-norris)
 - [Detective Pikaptcha - Episode 1](https://www.codingame.com/ide/puzzle/detective-pikaptcha-ep1)
+- [Horse-racing Duals](https://www.codingame.com/ide/puzzle/horse-racing-duals)
 - [Longest sequences of 1s](https://www.codingame.com/training/easy/create-the-longest-sequence-of-1s)
 - [Mars Lander - Episode 1](https://www.codingame.com/ide/puzzle/mars-lander-episode-1)
 - [Mime Type](https://www.codingame.com/ide/puzzle/mime-type)
