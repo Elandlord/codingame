@@ -25,6 +25,7 @@
 
 **Python**
 - [Power of Thor - Episode 1](https://www.codingame.com/training/easy/power-of-thor-episode-1)
+- [Rugby Score](https://www.codingame.com/ide/puzzle/rugby-score)
 </details>
 
 ### Medium
