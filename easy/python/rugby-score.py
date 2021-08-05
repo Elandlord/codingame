@@ -16,4 +16,5 @@ for tries in range(maxAmountTries):
 
         if maxPenalties % 3 == 0:
             penalty = int(maxPenalties / 3)
-            print(f'{tries} {transformationKick} {penalty}')
+            print(tries, transformationKick, penalty)
+
