@@ -12,6 +12,7 @@
 - [Temperatures](https://www.codingame.com/ide/puzzle/temperatures)
 
 **JavaScript**
+- [A Child's Play](https://www.codingame.com/ide/puzzle/a-childs-play) **UNFINISHED (36%)**
 - [ASCII Art](https://www.codingame.com/ide/puzzle/ascii-art)
 - [Chuck Norris](https://www.codingame.com/ide/puzzle/chuck-norris)
 - [Detective Pikaptcha - Episode 1](https://www.codingame.com/ide/puzzle/detective-pikaptcha-ep1)
