@@ -10,13 +10,18 @@ class Game {
         this.grid = grid;
         this.direction = direction;
         this.pos = pos;
-        this.initPos = pos;
+        this.initPos = { ...this.pos };
         this.visitedCoords = [];
         this.moves = 0;
+        this.hasPassedStartingPoint = 0;
+
+        this.visit(this.currentCoords(), this.direction);
     }
 
     hasSeenCellBefore() {
-        return this.visitedCoords.includes(`${this.nextCoords()} ${this.direction}`);
+        if (this.hasPassedStartingPoint === 0 && this.moves < 1000) return false;
+
+        return this.visitedCoords.includes(this.currentCoords() + this.direction);
     }
 
     moveTimes(times) {
@@ -28,15 +33,15 @@ class Game {
     }
 
     move() {
-        while(this.findNextPostion() === '#') {
+        while (this.findNextPostion() === '#') {
             this.switchDirection();
         }
 
         let cell = this.findNextPostion();
 
-        if (cell === '.' || cell === 'O') {
-            this.updatePosition();
-        }
+        if (cell === '.' || cell === 'O') this.updatePosition();
+
+        if (this.pos.x === this.initPos.x && this.pos.y === this.initPos.y) this.hasPassedStartingPoint = 1;
 
         this.moves++;
     }
@@ -54,8 +59,7 @@ class Game {
         if (this.direction === directions.RIGHT) this.pos.x++;
         if (this.direction === directions.DOWN) this.pos.y++;
         if (this.direction === directions.LEFT) this.pos.x--;
-
-        this.visitedCoords.push(`${this.currentCoords()} ${this.direction}`);
+        this.visit(this.currentCoords(), this.direction);
     }
 
     findNextPostion() {
@@ -68,12 +72,16 @@ class Game {
     nextCoords() {
         if (this.direction === directions.UP) return `${this.pos.x} ${this.pos.y - 1}`;
         if (this.direction === directions.RIGHT) return `${this.pos.x + 1} ${this.pos.y}`;
-        if (this.direction === directions.DOWN) return `${this.pos.y + 1} ${this.pos.x}`;
-        if (this.direction === directions.LEFT) return `${this.pos.y} ${this.pos.x - 1}`;
+        if (this.direction === directions.DOWN) return `${this.pos.x} ${this.pos.y + 1}`;
+        if (this.direction === directions.LEFT) return `${this.pos.x - 1} ${this.pos.y}`;
     }
 
     currentCoords() {
         return `${this.pos.x} ${this.pos.y}`;
+    }
+
+    visit(coords, dir) {
+        this.visitedCoords.push(coords + dir);
     }
 }
 
@@ -100,13 +108,11 @@ while(!gameToFindLoop.hasSeenCellBefore()) {
 
 const game = new Game(grid, directions.UP, findPosition(grid, 'O'));
 
-realMoves = moves % gameToFindLoop.moves;
+let realMoves = parseInt(moves % (gameToFindLoop.moves));
 
-if (realMoves === 0) {
-    realMoves = gameToFindLoop.moves;
+if (moves < 100) {
+    realMoves = moves;
 }
-
-realMoves = realMoves || 0;
 
 game.moveTimes(realMoves);
 
