@@ -15,6 +15,7 @@
 - [1D spreadsheet](https://www.codingame.com/ide/puzzle/1d-spreadsheet) **UNFINISHED (67%) - prob needs recursive approach** 
 - [A Child's Play](https://www.codingame.com/ide/puzzle/a-childs-play) **UNFINISHED (81%)**
 - [ASCII Art](https://www.codingame.com/ide/puzzle/ascii-art)
+- [Asteroids](https://www.codingame.com/ide/puzzle/asteroids)
 - [Chuck Norris](https://www.codingame.com/ide/puzzle/chuck-norris)
 - [Detective Pikaptcha - Episode 1](https://www.codingame.com/ide/puzzle/detective-pikaptcha-ep1)
 - [Horse-racing Duals](https://www.codingame.com/ide/puzzle/horse-racing-duals)
