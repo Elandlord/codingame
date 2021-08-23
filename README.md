@@ -12,6 +12,7 @@
 - [Temperatures](https://www.codingame.com/ide/puzzle/temperatures)
 
 **JavaScript**
+- [1D bush fire](https://www.codingame.com/ide/puzzle/1d-bush-fire)
 - [1D spreadsheet](https://www.codingame.com/ide/puzzle/1d-spreadsheet) **UNFINISHED (67%) - prob needs recursive approach** 
 - [A Child's Play](https://www.codingame.com/ide/puzzle/a-childs-play) **UNFINISHED (81%)**
 - [ASCII Art](https://www.codingame.com/ide/puzzle/ascii-art)
