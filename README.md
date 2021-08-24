@@ -53,3 +53,10 @@
 <details>
 <summary>Show</summary>
 </details>
+
+### Wars
+<details>
+<summary>Show</summary>
+
+- [Coders Strike Back](https://www.codingame.com/ide/puzzle/coders-strike-back)
+</details>
