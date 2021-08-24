@@ -1,0 +1,1 @@
+print(readline().split(" ").map(i=>i.split("").sort().join("")).join(" "));
