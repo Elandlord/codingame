@@ -1,0 +1,1 @@
+a=readline(),print(a==a.split('').reverse().join('')?'wins':'loses');
