@@ -1,0 +1,1 @@
+l=readline();s=[...Array(3)].map(_=>[...Array(l.length+4)].map(_=>'*').join(''));s[1]=`* ${l} *`;print(s.join('\n'));
