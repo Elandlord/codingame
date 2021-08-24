@@ -1,0 +1,1 @@
+for(c=0,s=readline(),w=[...Array(parseInt(readline()))].map(e=>readline());s.includes("_");)s=s.replace("_",w[c]),c++;print(s);
