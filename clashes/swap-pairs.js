@@ -1,0 +1,1 @@
+t=readline(),print([...Array(t.length)].map((e,r)=>{if(r%2==0)return t.slice(r,r+2).split("").reverse().join("")}).filter(Boolean).join(""));
