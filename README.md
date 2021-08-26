@@ -46,6 +46,7 @@
 <details>
 <summary>Show</summary>
 
+- [Longest Palindrome](https://www.codingame.com/ide/puzzle/longest-palindrome) **50%**
 - [Mini Sudoku Solver](https://www.codingame.com/ide/puzzle/mini-sudoku-solver)
 </details>
 
