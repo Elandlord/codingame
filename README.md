@@ -46,7 +46,7 @@
 <details>
 <summary>Show</summary>
 
-- [Longest Palindrome](https://www.codingame.com/ide/puzzle/longest-palindrome) **50%**
+- [Longest Palindrome](https://www.codingame.com/ide/puzzle/longest-palindrome) Inspired by: [this article](https://dev.to/urfan/leetcode-longest-palindromic-substring-with-javascript-544p)
 - [Mini Sudoku Solver](https://www.codingame.com/ide/puzzle/mini-sudoku-solver)
 </details>
 

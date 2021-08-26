@@ -34,3 +34,33 @@ let longestPalindromeLength = getPalindromes(str).reduce(
 
 palindromes.filter(palindrome => palindrome.length === longestPalindromeLength).forEach(palindrome => console.log(palindrome));
 
+// Solution 2 (more robust)
+function findPalindromes(strToSearch) {
+    let currentLongest = [0, 1];
+    return [...Array(strToSearch.length)].map((_, i) => {
+        const odd = getSurroundingCharacters(strToSearch, i, i+2); // odd = letter is the center
+        const even = getSurroundingCharacters(strToSearch, i, i+1);  // even = between letters
+        const longest = odd[1] - odd[0] > even[1] - even[0] ? odd : even; // choosing the longest palindrome
+        currentLongest = currentLongest[1] - currentLongest[0] > longest [1] - longest[0] ?  currentLongest : longest // comparing palindromes
+        return strToSearch.slice(currentLongest[0], currentLongest[1]);
+    });
+};
+
+function getSurroundingCharacters(strToSearch, leftId, rightId){
+    while (leftId >= 0 && rightId < strToSearch.length){
+        if(strToSearch[leftId] !== strToSearch[rightId]) break;
+        leftId--;
+        rightId++;
+    }
+    return[leftId + 1, rightId]
+}
+
+const strToSearch = readline();
+
+let palindromes = findPalindromes(strToSearch);
+
+palindromes.filter(palindrome => palindrome.length === Math.max(...palindromes.map(palindrome => palindrome.length)))
+    .filter((palindrome, index, self) => {
+        return self.indexOf(palindrome) === index;
+    })
+    .forEach(palindrome => console.log(palindrome));
