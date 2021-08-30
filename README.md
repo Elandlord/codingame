@@ -18,6 +18,7 @@
 - [ASCII Art](https://www.codingame.com/ide/puzzle/ascii-art)
 - [Asteroids](https://www.codingame.com/ide/puzzle/asteroids)
 - [Chuck Norris](https://www.codingame.com/ide/puzzle/chuck-norris)
+- [Disordered First Contact](https://www.codingame.com/ide/puzzle/disordered-first-contact) **UNFINISHED (20%)** - decoding needs work
 - [Detective Pikaptcha - Episode 1](https://www.codingame.com/ide/puzzle/detective-pikaptcha-ep1)
 - [Horse-racing Duals](https://www.codingame.com/ide/puzzle/horse-racing-duals)
 - [How time flies](https://www.codingame.com/ide/puzzle/how-time-flies)
