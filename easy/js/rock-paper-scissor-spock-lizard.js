@@ -24,15 +24,15 @@ class Player {
     }
 }
 
-let players = [...Array(parseInt(readline()))].map(_ => new Player(...readline().split(' '))); 
+let players = [...Array(parseInt(readline()))].map(_ => new Player(...readline().split(' ')));
 
-let count = players.length / 2;
+let count = Math.log2(players.length);
 
 for(let i = 1; i <= count; i++) {
-    players = sliceIntoChunks(players, 2);
+    let playerGroups = sliceIntoChunks(players, 2);
 
-    players = players.map(playerGroup => {
-        if(playerGroup.length !== 2) return playerGroup; // The later tests fail. Technically, the group length should always be 2.
+    players = playerGroups.map(playerGroup => {
+        if(playerGroup.length !== 2) return playerGroup;
 
         let playerSign = playerGroup[0].sign;
         let opponentVulnerableSigns = lookUpTable[playerSign];
@@ -54,7 +54,7 @@ for(let i = 1; i <= count; i++) {
             return playerGroup;
         }
 
-        if(playerGroup[0].id < playerGroup[1].id) {
+        if(parseInt(playerGroup[0].id) < parseInt(playerGroup[1].id)) {
             playerGroup[0].wins++;
             playerGroup.splice(1, 1);
             return playerGroup;
@@ -64,7 +64,7 @@ for(let i = 1; i <= count; i++) {
             return playerGroup;
         }
     }).flat();
-} 
+}
 
 console.log(players[0].id);
 console.log(players[0].opponents.join(' '));

@@ -25,6 +25,7 @@
 - [Mars Lander - Episode 1](https://www.codingame.com/ide/puzzle/mars-lander-episode-1)
 - [Mime Type](https://www.codingame.com/ide/puzzle/mime-type)
 - [Reverse Minesweeper](https://www.codingame.com/ide/puzzle/reverse-minesweeper)
+- [Rock Paper Scissor Lizard Spock](https://www.codingame.com/ide/puzzle/rock-paper-scissors-lizard-spock)
 - [Robot Show](https://www.codingame.com/ide/puzzle/robot-show)
 - [Sudoku Checker](https://www.codingame.com/training/easy/sudoku-validator/solution?id=20448622)
 - [Tree Paths](https://www.codingame.com/training/easy/tree-paths)
